@@ -581,7 +581,7 @@ p{
 
 
 /* Media Query For Tablet */
-@media all and (min-width: 500px) {
+@media all and (min-width: 300px) {
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
@@ -689,7 +689,7 @@ p{
 
 
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 300px) {
 	/* header */
 	#header .hamburger {
 		display: none;
