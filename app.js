@@ -1,19 +1,24 @@
 
 let projects = [
     {
-        title: "Project Name",
-        description : "Descprition .......................",
-        image: "./images/img-1.png"
+        title: "Credit Card Default Prediction and Analysis",
+        description : "Analyzing clients dataset and predicting whether the client is defaulted or not based on various personal and economic attributes. Various classifiers - Random Forest, Support Vector Machine, Logistic Regression, Naive Bayes, K-nearest neighbours were trained to analyse how well they perform and was performed using libraries - pandas, NumPy, matplotlib, scikit learn",
+        image: "./images/credit.png"
     },
     {
-        title: "Project Name",
-        description : "Descprition .......................",
-        image: "./images/img-1.png"
+        title: "Sentiment Analysis",
+        description : "Analysing IMDb movie review data and predicting whether the review is positive or negative by using logistic regression classifier estimator for scikit learn for document classification",
+        image: "./images/sentiment.jpg"
     },
     {
-        title: "Project Name",
-        description : "Descprition .......................",
-        image: "./images/img-1.png"
+        title: "Recurrent Neural Network",
+        description : "Created, trained and evaluated a Recurrent Neural Network using Keras with TensorFlow where model infer the meaning of various characters from a sequence of text input (string data showing the addition of two numbers) and then learn addition from the data",
+        image: "./images/rnn1.png"
+    },
+    {
+        title: "Image Compression",
+        description : "Compressing high-quality image data by implementing -means clustering unsupervised learning algorithm using the scikit learn module and python along with interactive GUI components for interactive controls",
+        image: "./images/ic5.jpg"
     }
 ]
 for(let i = 0; i< projects.length; i++) {
@@ -89,7 +94,7 @@ for(let i = 0; i< blog.length; i++) {
     image.setAttribute("alt","img")
     imagediv.appendChild(image);
 
-    document.getElementById("blogs").appendChild(parentDiv);
+    document.getElementById("all-blogs").appendChild(parentDiv);
 }
 
 
@@ -111,8 +116,8 @@ let contactme = [
     {
         icon : "https://img.icons8.com/bubbles/100/000000/map-marker.png",
         title : "Address",
-        content : "FBD",
-        content1 : "",
+        content : "Faridabad",
+        content1 : "Delhi NCR",
         content2 : "",
     }
 ]
